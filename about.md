@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![Jeremy and Barley](/assets/jer-and-bar.png)
+![Jeremy and Barley](/assets/jer-and-bar.png){:.inline-image}
 
 Welcome to my site.
 It's likely I won't give it too much love, but we'll see!

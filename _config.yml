@@ -68,3 +68,11 @@ show_excerpts: true
 #   - vendor/ruby/
 exclude:
   - README.md
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      author: Jeremy

@@ -5,6 +5,9 @@ on:
     branches:
       - main
   workflow_dispatch: {}
+  schedule:
+    # Monday midnight
+    - cron: '0 0 * * 1'
 
 jobs:
   github-pages:

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Gameboy Advance Cartridge-Swapping
-author: Jeremy
 tags: gba embedded
 ---
 
@@ -46,7 +45,7 @@ However, code residing in one of the two RAM blocks can continue executing, and 
 
 This technique is known as "cartridge-swapping," and can be a little tricky to work with, but in principle allows ACE, the holy grail of exploits and hacking.
 Of course, we aren't hacking in a criminal sense here, but the possibilities are exciting.
-See a previous writeup [here][Cartswap writeup] and [here][Cartswap writeup 2].
+See writeups by others [here][Cartswap writeup] and [here][Cartswap writeup 2].
 
 To accomplish save-dumping, it seems the following sequence should be possible:
 
@@ -61,16 +60,9 @@ To accomplish save-dumping, it seems the following sequence should be possible:
 
 In the next post, I will briefly discuss the GBA development tool landscape, and explore what is necessary to allow code relocation from ROM to RAM at runtime.
 
-*[GBA]: Gameboy Advance
-*[GB]: Gameboy
-*[GBC]: Gameboy Color
-*[ROM]: Read-only Memory
-*[EWRAM]: External Work RAM
-*[IWRAM]: Internal Work RAM
-*[RAM]: Random Access Memory
-*[ACE]: Arbitrary Code Execution
-
 [^1]: Interestingly, backwards-compatibility is achieved almost entirely with real hardware rather than software emulation (common in more modern systems). As a result, playing older GB and GBC games usually uses _less_ power than the native GBA games.  GB and GBC emulators that run as native GBA applications [do exist][Goomba Color], but have some drawbacks (like higher power draw).
+
+{% include gba-abbreviations.md %}
 
 [GBA Backup Tool Download]: https://digiex.net/threads/gba-backup-tool-backup-gba-saves-dump-a-gameboy-advanced-rom-using-a-nintendo-ds.9921/
 [GBA Backup Tool Guide]: https://projectpokemon.org/home/forums/topic/41730-managing-gba-saves-using-gba-backup-tool/

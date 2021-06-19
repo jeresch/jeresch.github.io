@@ -134,6 +134,13 @@ I _highly_ recommend [Retro Game Mechanics Explained] for some really interestin
 
 ### Cartridge Save Data
 
+https://densinh.github.io/DenSinH/emulation/2021/02/01/gba-eeprom.html
+https://dillonbeliveau.com/2020/06/05/GBA-FLASH.html
+https://zork.net/~st/jottings/GBA_saves.html
+https://www.gbadev.org/docs.php
+https://mgba-emu.github.io/gbatek/#gbakeypadinput
+https://www.coranac.com/tonc/text/objbg.htm
+
 ## The BIOS
 
 [^1]: Please see my [about page](/about) for a brief overview of my credentials.  Aside from those, I can only stand on the authority of a hobbyist who spends too much time on this stuff.
